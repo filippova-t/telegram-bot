@@ -14,7 +14,5 @@ public interface NotificationTaskRepository extends JpaRepository <NotificationT
         nativeQuery = true)
 Collection <NotificationTask> findNotificationTasksWithCurrentTime ();
 
-
-
-
 }
+
